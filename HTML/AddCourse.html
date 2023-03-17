@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../CSS/AddCourse-CSS.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-links">
+            <div class="link" ><a href="Personal Information.html">Personal Information</a></div>
+            <div class="link" ><a href="Course info.html">Course Information</a></div>
+            <div class="link" ><a href="ViewExperience.html">Experiences Information</a></div>
+            <div class="link"><a style="color: #FFFFFF" href="AddCourse.html">Add Course</a></div>
+            <div class="link"><a href="AddExperience.html">Add experience</a></div>
+        </div>
+        <div class="logo">
+            <img src="../Images/Azhar_WHITE_LOGO.png" alt="Al-Azhar">
+        </div>
+    </div>
+    <form action="" method="get">
+        <div class="contener">
+            <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-6">
+                            <div class="row">
+                                <div class="col-4">
+                                    <label>Cours Name: </label>
+                                </div>
+                                <div class="col-7">
+                                <div class="text"><input type="text" name="cours_name" style="border-radius: 7px;"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <label>Namber Of Cours: </label>
+                                </div>
+                                <div class="col-7">
+                                <div class="text"><input type="number" name="Namber_Of_Cours"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <label>start date: </label>
+                                </div>
+                                <div class="col-7">
+                                    <div class="text"><input type="date" name="start_date"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <label>end date: </label>
+                                </div>
+                                <div class="col-7">
+                                    <div class="text"><input type="date" name="end_date"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <label>Institution: </label>
+                                </div>
+                                <div class="col-7">
+                                    <div class="text"><input type="text" name="Institution"></div>
+                                </div> 
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <label>Attachment: </label>
+                                </div>
+                                <div class="col-2">
+                                    <input type="radio" name="mma" value="File" checked="checked">
+                                    <label>File</label>
+                                </div>
+                                <div class="col-5">
+                                    <input type="radio" name="mma" value="URL">
+                                    <label>URL</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <label>URL:</label>
+                                </div>
+                                <div class="col-7">
+                                    <div class="text"><input type="url" name="URL"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <label>File:</label>
+                                </div>
+                                <div class="col-7">
+                                    <input type="file" name="file choose">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <label>Node:</label>
+                                </div>
+                                <div class="col-7">
+                                    <textarea name="node" rows="8" cols="30"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                <div class="save"><input type="submit" value="Save"></div>
+                                </div>
+                                <div class="col-6">
+                                <div class="reset"><input type="reset" value="Resert"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <img class="course-img" src="../Images/course.jpg" alt="Personal Photo">
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

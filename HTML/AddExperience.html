@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../CSS/AddExperience-CSS.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-links">
+            <div class="link" ><a href="Personal Information.html">Personal Information</a></div>
+            <div class="link" ><a href="Course info.html">Course Information</a></div>
+            <div class="link" ><a href="ViewExperience.html">Experiences Information</a></div>
+            <div class="link" ><a  href="AddCourse.html">Add Course</a></div>
+            <div class="link" ><a style="color: #FFFFFF" href="AddExperience.html">Add experience</a></div>
+        </div>
+        <div class="logo">
+            <img src="../Images/Azhar_WHITE_LOGO.png" alt="Al-Azhar">
+        </div>
+    </div>
+    <form action="" method="get">
+        <div class="contener">
+            <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-7">
+                            <div class="row">
+                                <div class="col-3">
+                                    <label>Experiences Category:</label>
+                                </div>
+                                <div class="col-7">
+                                <div class="text"><select required>
+                                    <option value=""></option>
+                                    <option value="Job">Job</option>
+                                    <option value="Freelancer">Freelancer</option>
+                                    <option value="Volunteer">Volunteer</option>
+                                    <option value="Self-Learning">Self-Learning</option>
+                                    <option value="Other">Other</option>
+                                </select></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-3">
+                                    <label>Experiences Titel: </label>
+                                </div>
+                                <div class="col-7">
+                                <div class="text"><input  type="text" name="Experiences_Titel"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-3">
+                                    <label>Start month: </label>
+                                </div>
+                                <div class="col-7">
+                                    <div class="text"><input type="date" name="start_month" ></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-3">
+                                    <label>End month: </label>
+                                </div>
+                                <div class="col-7">
+                                    <div class="text"><input type="date" name="End_month"/></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-3">
+                                    <label>Institution: </label>
+                                </div>
+                                <div class="col-7">
+                                    <div class="text"><input type="text" name="Institution"></div>
+                                </div> 
+                            </div>
+                            <div class="row">
+                                <div class="col-3">
+                                    <label>Discription:</label>
+                                </div>
+                                <div class="col-7">
+                                    <div class="text"><textarea name="Discription" rows="8" cols="65" ></textarea><br></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-5">
+                                <div class="save"><input type="submit" value="Save"></div>
+                                </div>
+                                <div class="col-6">
+                                <div class="reset"><input type="reset" value="Resert"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-5">
+                            <img class="experience-img" src="../Images/experience.jpg" alt="Personal Photo">
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
